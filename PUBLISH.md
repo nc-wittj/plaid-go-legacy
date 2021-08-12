@@ -3,7 +3,7 @@
 `github.plaid.com/plaid/plaid-go` uses semantic versioning with git tags to
 track releases.
 
-1. Ensure that you have cloned this repository into `$GOPATH/src/github.com/plaid/plaid-go`
+1. Ensure that you have cloned this repository into `$GOPATH/src/github.com/nc-wittj/plaid-go-legacy`
 
 2. Checkout the `master` branch and pull the latest changes:
 

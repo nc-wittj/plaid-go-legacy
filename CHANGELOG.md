@@ -33,14 +33,14 @@ BREAKING CHANGES:
 
 ## 5.1.0
 
-- Add support for Link Token get endpoint ([#142](https://github.com/plaid/plaid-go/pull/142))
+- Add support for Link Token get endpoint ([#142](https://github.com/nc-wittj/plaid-go-legacy/pull/142))
   - `/link/token/get`
 
 ## 5.0.0
 
 BREAKING CHANGES:
 
-- Add BACS as a parameter to `/recipient/create` ([#137](https://github.com/plaid/plaid-go/pull/137))
+- Add BACS as a parameter to `/recipient/create` ([#137](https://github.com/nc-wittj/plaid-go-legacy/pull/137))
 
 ## 4.0.0
 

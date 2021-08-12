@@ -9,7 +9,7 @@ import (
 	"text/template"
 
 	"github.com/coreos/go-semver/semver"
-	"github.com/plaid/plaid-go/internal"
+	"github.com/nc-wittj/plaid-go-legacy/internal"
 )
 
 var versionTmpl = template.Must(template.New("var").Parse(strings.TrimSpace(`

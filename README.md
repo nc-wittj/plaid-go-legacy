@@ -1,6 +1,6 @@
-# plaid-go [![CircleCI](https://circleci.com/gh/plaid/plaid-go.svg?style=svg)](https://circleci.com/gh/plaid/plaid-go) [![GoDoc](https://godoc.org/github.com/plaid/plaid-go?status.svg)](https://godoc.org/github.com/plaid/plaid-go/plaid)
+# plaid-go [![CircleCI](https://circleci.com/gh/plaid/plaid-go.svg?style=svg)](https://circleci.com/gh/plaid/plaid-go) [![GoDoc](https://godoc.org/github.com/nc-wittj/plaid-go-legacy?status.svg)](https://godoc.org/github.com/nc-wittj/plaid-go-legacy/plaid)
 
-:warning: After 8/16/21, this major version of the library will only receive critical security patches. Please consider trying our [beta generated version](https://github.com/plaid/plaid-go/tree/0.1.0-beta-release).
+:warning: After 8/16/21, this major version of the library will only receive critical security patches. Please consider trying our [beta generated version](https://github.com/nc-wittj/plaid-go-legacy/tree/0.1.0-beta-release).
 
 
 A Go client library for the [Plaid API](https://plaid.com/docs).
@@ -18,19 +18,19 @@ A Go client library for the [Plaid API](https://plaid.com/docs).
 ## Install
 
 ```console
-$ go get github.com/plaid/plaid-go
+$ go get github.com/nc-wittj/plaid-go-legacy
 ```
 
 ## Versioning
 
 Each major version of `plaid-go` targets a specific version of the Plaid API:
 
-| API version | plaid-go release |
-| ----------- | ------------------ |
-| [`2020-09-14`][api-version-2020-09-14] (**latest**) | `7.x.x` |
-| [`2019-05-29`][api-version-2019-05-29] (**latest**) | `2.x.x` |
-| [`2018-05-22`][api-version-2018-05-22] | `1.x.x` |
-| `2017-03-08` | not supported |
+| API version                                         | plaid-go release |
+| --------------------------------------------------- | ---------------- |
+| [`2020-09-14`][api-version-2020-09-14] (**latest**) | `7.x.x`          |
+| [`2019-05-29`][api-version-2019-05-29] (**latest**) | `2.x.x`          |
+| [`2018-05-22`][api-version-2018-05-22]              | `1.x.x`          |
+| `2017-03-08`                                        | not supported    |
 
 For information about what has changed between versions and how to update your integration, head to the [version changelog][version-changelog].
 
@@ -38,7 +38,7 @@ For information about what has changed between versions and how to update your i
 
 The module supports all Plaid API endpoints.
 
-GoDoc: [![GoDoc](https://godoc.org/github.com/plaid/plaid-go?status.svg)](https://godoc.org/github.com/plaid/plaid-go/plaid)
+GoDoc: [![GoDoc](https://godoc.org/github.com/nc-wittj/plaid-go-legacy?status.svg)](https://godoc.org/github.com/nc-wittj/plaid-go-legacy/plaid)
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ import (
     "net/http"
     "os"
 
-    "github.com/plaid/plaid-go/plaid"
+    "github.com/nc-wittj/plaid-go-legacy/plaid"
 )
 
 clientOptions := plaid.ClientOptions{
@@ -88,11 +88,11 @@ PLAID_CLIENT_ID=aabbcc PLAID_PUBLIC_KEY=ddeeff PLAID_SECRET=ffeedd make test
 
 ## Support
 
-Open an [issue](https://github.com/plaid/plaid-go/issues/new)!
+Open an [issue](https://github.com/nc-wittj/plaid-go-legacy/issues/new)!
 
 ## License
 
-[MIT](https://github.com/plaid/plaid-go/blob/master/LICENSE)
+[MIT](https://github.com/nc-wittj/plaid-go-legacy/blob/master/LICENSE)
 
 [version-changelog]: https://plaid.com/docs/api/versioning/
 [api-version-2018-05-22]: https://plaid.com/docs/api/versioning/#2018-05-22
